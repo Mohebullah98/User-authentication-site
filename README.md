@@ -24,5 +24,9 @@ What is salting?
 The proccess of adding a random character string to a password and then hashing the new string. This makes it much harder for a hashed password to be deciphered because now the salt must be cracked as well.
 Why use bcrypt? 
 
+Level 5
+
+Using Passport JS to establish cookies and sessions for sign in.
+
 bcrypt hashing is much more complex to perform than a standard hashing algorithm so it will be much harder to brute force hashes.
 bcrypt also supports salting rounds which basically increases the amount of times a hashed password is salted and hashed; this exponentially increases the time it would take to crack the hash via brute force.
